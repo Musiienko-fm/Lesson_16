@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacts</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/icons-font.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a class="logo" href="#">
+					<img src="img/logo.svg" alt="Логотип Createx">
+				</a>
+				<nav class="header__nav">
+					<ul class="menu">
+						<li class="menu__item"><a class="menu__link" href="#">About Us</a></li>
+						<li class="menu__item"><a class="menu__link" href="#">Courses</a></li>
+						<li class="menu__item"><a class="menu__link" href="#">Events</a></li>
+						<li class="menu__item"><a class="menu__link" href="#">Blog</a></li>
+						<li class="menu__item"><a class="menu__link" href="#">Contacts</a></li>
+					</ul>
+				</nav>
+				<div class="header__action">
+					<div class="action-item">
+						<a class="action-item__button button" href="#"><span>Get consultation</span></a>
+					</div>
+					<div class="users">
+						<a class="users__link" href="#">
+							<i class="icon-user"></i>
+							<div>Log in / Register</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="contact-info">
+				<div class="contact-info__container">
+					<div class="contact-info__main">
+						<div class="contact-info__heider title-block">
+							<div class="title-block__subtitle">Contact info</div>
+							<h2 class="title-block__title">Get in touch</h2>
+						</div>
+						<!--Іконки я навмистно додав декількома способами-->
+						<div class="contact-info__info info">
+							<div class="info__item mail">
+								<div class="mail__wrapper info-padding">
+									<div class="mail__subtitle info-subtitle">Talk to us:</div>
+									<div class="mail__text info-text">hello@createx.com</div>
+								</div>
+							</div>
+							<div class="info__item phone">
+								<div class="phone__wrapper info-padding">
+									<div class="phone__subtitle info-subtitle">Call us:</div>
+									<div class="phone__text info-text">(405) 555-0128</div>
+								</div>
+							</div>
+							<div class="info__item address">
+								<div class="adress__wrapper info-padding">
+									<div class="adress__subtitle info-subtitle">Address:</div>
+									<div class="adress__text info-text">2464 Royal Ln. Mesa, New Jersey 45463, USA</div>
+								</div>
+							</div>
+						</div>
+						<div class="contact-info__social social-networks">
+							<div class="social-networks__title subtitle">
+								Follow us:
+							</div>
+							<div class="social-networks__icons">
+								<a href="#" class="icons-link facebook">
+									<i class="icon-facebook"></i>
+								</a>
+								<a href="#" class="icons-link twitter">
+									<i class="icon-twitter"></i>
+								</a>
+								<a href="#" class="icons-link youtube">
+									<i class="icon-youtube"></i>
+								</a>
+								<a href="#" class="icons-link telegram">
+									<i class="icon-telegram"></i>
+								</a>
+								<a href="#" class="icons-link instagram">
+									<i class="icon-instagram"></i>
+								</a>
+								<a href="#" class="icons-link linked-in">
+									<i class="icon-linked-in"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="contact-info__map">
+						<iframe class="map"
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16909.248667533095!2d-81.80285853530309!3d41.47910699216802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8830f1f0b358548f%3A0x4b9d5381e0a4445f!2zTWFkaXNvbiBBdmUsIExha2V3b29kLCBPSCwg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1667381106859!5m2!1sru!2sua"
+							width="705" height="412" style="border:0;" allowfullscreen="" loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+			</section>
+			<section class="questions">
+				<div class="questions__container">
+					<div class="questions__image">
+						<img src="img/question-illustration.svg" alt="Дівчина менеджер відповідає на питання">
+					</div>
+					<div class="questions__main">
+						<div class="questions__heider title-block">
+							<div class="title-block__subtitle">Any questions?</div>
+							<h2 class="title-block__title">Drop us a line</h2>
+						</div>
+						<form class="questions__form" action="#" method="get">
+							<div class="questions__data">
+								<div class="question__item item-form">
+									<label for="first-name" class="item-form__label">First Name*</label>
+									<input id="first-name" required autocomplete="off" type="text" name="first name"
+										placeholder="Your first name" class="item-form__input">
+								</div>
+								<div class="question__item item-form">
+									<label for="last-name" class="item-form__label">Last Name*</label>
+									<input id="last-name" required autocomplete="off" type="text" name="last name"
+										placeholder="Your last name" class="item-form__input">
+								</div>
+							</div>
+							<div class="questions__data">
+								<div class="question__item item-form">
+									<label for="email" class="item-form__label">Email*</label>
+									<input id="email" required autocomplete="off" type="email" name="mail"
+										placeholder="Your working email" class="item-form__input">
+								</div>
+								<div class="question__item item-form">
+									<label for="phone" class="item-form__label">Phone</label>
+									<input id="phone" autocomplete="off" type="tel" name="phone" placeholder="Your phone number"
+										class="item-form__input">
+								</div>
+							</div>
+							<div class="item-form item-form--text-area">
+								<label for="question" class="item-form__label">Message*</label>
+								<textarea class="item-form__input item-form__input--text-area" id="question" name="question"
+									required placeholder="Your message"></textarea>
+							</div>
+							<div class="feedback">
+								<h3 class="feedback__title">Choose a feedback format:</h3>
+								<div class="feedback__choise">
+									<div class="feedback__radio">
+										<input class="feedback__input" id="сallback" required name="feedback" value="сallback"
+											type="radio">
+										<label class="feedback__label" for="сallback">Call</label>
+									</div>
+									<div class="feedback__radio">
+										<input class="feedback__input" id="messenger" required name="feedback" value="messenger"
+											type="radio">
+										<label class="feedback__label" for="messenger">Messenger</label>
+									</div>
+									<div class="feedback__radio">
+										<input class="feedback__input" id="letter-mail" required name="feedback" value="email"
+											type="radio">
+										<label class="feedback__label" for="letter-mail">E-mail</label>
+									</div>
+								</div>
+							</div>
+							<div class="question__action">
+								<div class="question__check checkbox">
+									<input class="checkbox__input" id="checkbox" name="
+									agreement" value="alright" type="checkbox">
+									<label for="checkbox" class="checkbox__label"><span class="checkbox__text">I agree to receive
+											communications from Createx Online School</span></label>
+								</div>
+								<div class="question__button">
+									<button class="action-item__button button button--long" type="submit"><span>Get
+											consultation</span>
+									</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+</body>
+
+</html>
